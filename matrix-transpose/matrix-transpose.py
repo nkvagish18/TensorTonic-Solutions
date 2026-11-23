@@ -7,4 +7,4 @@ def matrix_transpose(A: list) -> np.ndarray:
     # Write code here
     pass
     A = np.array(A)
-    return np.transpose(A)
+    return A.T
